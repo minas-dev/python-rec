@@ -1,3 +1,4 @@
+
 # reverse a number
 r=int(input("enter the number to reverse: "))
 d=0
@@ -7,6 +8,15 @@ while r>0:
     r//=10
 print(d)
 
+
+
+#count
+a=int(input("Enter the number: "))
+count=0
+while a>0:
+    count+=1
+    a//=10
+print(count)
 
 
 n=int(input("Enter the number: "))
@@ -19,4 +29,3 @@ for i in range(a,n+1):
     a=b
     b=c
 
-    
